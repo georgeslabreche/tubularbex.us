@@ -23,31 +23,47 @@
         
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
    
-        <!--style>
-        html { 
-            width:100%; 
-            height:100%; 
-            background:url(rexus-bexus-tubular.png) center center no-repeat;
+        <style>
+
+        .vertical-center {
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            width:100%;
         }
-        </style-->
+
+        @media (max-width: 576px) {
+            .ctn-rxbx-logo{
+                display: none;
+            }
+
+            .ctn-tubular-title{
+                display: none;
+            }
+
+            .img-sponsor-logo{
+                max-width: 250px;
+            }
+        }
+
+        </style>
     </head>
     <body>
         <div class="container-fluid">
             <br>
             <div class="row">
-                <div class="col-md-2">
+                <div class="col-sm-2">
                 </div>
-                <div class="col-md-2">
-                    <img src="logo/rexus-bexus-logo.png" style="width:100%;"/>
+                <div class="col-sm-2 ctn-rxbx-logo">
+                    <img src="logo/rexus-bexus-logo.png" class="vertical-center"/>
                 </div>
-                <div class="col-md-4" style="text-align: center;">
-                    <br><br>
-                    <h1>TUBULAR</h1>
+                <div class="col-sm-4 ctn-tubular-title" style="text-align: center;">
+                    <h1 class="vertical-center">TUBULAR</h1>
                 </div>
-                <div class="col-md-2">
-                    <img src="logo/rexus-bexus-tubular-logo.png" style="width:100%;"/>
+                <div class="col-sm-2">
+                    <img src="logo/rexus-bexus-tubular-logo.png" class="vertical-center"/>
                 </div>
-                <div class="col-md-2">
+                <div class="col-sm-2">
                 </div>
             </div>
             <div class="row" style="text-align:center;">
@@ -92,35 +108,59 @@
                 </div>
                 <div class="col-sm-2"></div>
             </div>
-            <div class="row">
-                <div class="col-md-3">
+            <div class="row" align="center">
+                <div class="col-sm-3">
                 </div>
-                <div class="col-md-2">
-                    <img src="logo/snsb-logo.png" style="width:100%;"/>
+                <div class="col-sm-2">
+                    <img src="logo/snsb-logo.png" class="vertical-center img-sponsor-logo"/>
+                    <br><br>
                 </div>
-                <div class="col-md-2">
-                    <img src="logo/dlr-logo.png" style="width:100%;"/>
+                <div class="col-sm-2">
+                    <img src="logo/dlr-logo.png" class="vertical-center img-sponsor-logo"/>
+                    <br><br>
                 </div>
-                <div class="col-md-2">
-                    <img src="logo/esa-logo.png" style="width:100%;"/>
+                <div class="col-sm-2">
+                    <img src="logo/esa-logo.png" class="vertical-center img-sponsor-logo"/>
+                    <br><br>
                 </div>
-                <div class="col-md-3">
+                <div class="col-sm-3">
                 </div>
             </div>
                    
-            <div class="row">
-                <div class="col-md-3">
+            <div class="row"  align="center">
+                <div class="col-sm-3">
                 </div>
-                <div class="col-md-2">
-                    <img src="logo/ssc-logo.png" style="width:100%;"/>
+                <div class="col-sm-2">
+                    <img src="logo/ssc-logo.png" class="vertical-center img-sponsor-logo"/>
+                    <br><br>
                 </div>
-                <div class="col-md-2">
-                    <img src="logo/zarm-logo.png" style="width:100%;"/>
+                <div class="col-sm-2">
+                    <img src="logo/zarm-logo.png" class="vertical-center img-sponsor-logo"/>
+                    <br><br>
                 </div>
-                <div class="col-md-2">
-                    <img src="logo/eurolaunch-logo.png" style="width:100%;"/>
+                <div class="col-sm-2">
+                    <img src="logo/eurolaunch-logo.png" class="vertical-center img-sponsor-logo"/>
+                    <br><br>
                 </div>
-                <div class="col-md-3">
+                <div class="col-sm-3">
+                </div>
+            </div>
+
+            <div class="row"  align="center">
+                <div class="col-sm-3">
+                </div>
+                <div class="col-sm-2">
+                    
+                    <br><br>
+                </div>
+                <div class="col-sm-2">
+                    
+                    <br><br>
+                </div>
+                <div class="col-sm-2">
+                    <br><br>
+                </div>
+                <div class="col-sm-3">
                 </div>
             </div>
         </div>
