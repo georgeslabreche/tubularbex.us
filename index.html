@@ -2,6 +2,7 @@
     <head>
         <!-- Place this data between the <head> tags of your website -->
         <title>TUBULAR BEXUS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Alternative AirCore for Stratospheric Air Sampling." />
 
         <!-- Twitter Card data -->
@@ -32,7 +33,13 @@
             width:100%;
         }
 
-        @media (max-width: 768px) {
+        img.img-sponsor-logo:hover {
+            opacity: 0.5;
+            filter: alpha(opacity=50); /* For IE8 and earlier */
+            cursor: pointer;
+        }
+
+        @media (max-width: 767px) {
             .ctn-rxbx-logo{
                 display: none;
             }
@@ -87,6 +94,16 @@
                 </div>
                 <div class="col-md-2"></div>
             </div>
+
+            <div class="row" style="text-align:center;">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <br>
+                    <a href="BX26_TUBULAR_SEDv1-1_25Jan18.pdf" target="_blank">Download the latest Student Experiment Documentation (SED v1.1)</a>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+            
             <div class="row" style="text-align:justify;">
                 <div class="col-md-2"></div>
                 <div class="col-md-8">
@@ -95,20 +112,12 @@
                 </div>
                 <div class="col-md-2"></div>
             </div>
-            <div class="row" style="text-align:center;">
-                <div class="col-md-2"></div>
-                <div class="col-md-8">
-                    <br>
-                    <a href="BX26_TUBULAR_SEDv1-1_25Jan18.pdf" target="_blank">Download the latest Student Experiment Documentation (SED)</a>
-                </div>
-                <div class="col-md-2"></div>
-            </div>
-
+            
             <div class="row" style="text-align:justify;">
                 <div class="col-md-2"></div>
                 <div class="col-md-8">
                     <br>
-                    The REXUS/BEXUS programme is realised under a bilateral Agency Agreement between the German Aerospace Center (DLR) and the Swedish National Space Board (SNSB). The Swedish share of the payload has been made available to students from other European countries through a collaboration with the European Space Agency (ESA). EuroLaunch, a cooperation between the Esrange Space Center of SSC and the Mobile Rocket Base (MORABA) of DLR, is responsible for the campaign management and operations of the launch vehicles. Experts from DLR, SSC, ZARM and ESA provide technical support to the student teams throughout the project. REXUS and BEXUS are launched from SSC, Esrange Space Center in northern Sweden.
+                    The <a href="http://rexusbexus.net/" target="_blank">REXUS/BEXUS programme</a> is realised under a bilateral Agency Agreement between the German Aerospace Center (DLR) and the Swedish National Space Board (SNSB). The Swedish share of the payload has been made available to students from other European countries through a collaboration with the European Space Agency (ESA). EuroLaunch, a cooperation between the Esrange Space Center of SSC and the Mobile Rocket Base (MORABA) of DLR, is responsible for the campaign management and operations of the launch vehicles. Experts from DLR, SSC, ZARM and ESA provide technical support to the student teams throughout the project. REXUS and BEXUS are launched from SSC, Esrange Space Center in northern Sweden.
                     <br><br><br>
                 </div>
                 <div class="col-md-2"></div>
@@ -116,56 +125,69 @@
             <div class="row" align="center">
                 <div class="col-sm-3">
                 </div>
-                <div class="col-sm-2">
-                    <img src="logo/snsb-logo.png" class="vertical-center img-sponsor-logo"/>
+                <div class="col-md-2">
+                    <a href="http://www.snsb.se/" target="_blank">
+                        <img src="logo/snsb-logo.png" class="vertical-center img-sponsor-logo"/>
+                    </a>
                     <br><br>
                 </div>
-                <div class="col-sm-2">
-                    <img src="logo/dlr-logo.png" class="vertical-center img-sponsor-logo"/>
+                <div class="col-md-2">
+                    <a href="http://www.dlr.de" target="_blank">
+                        <img src="logo/dlr-logo.png" class="vertical-center img-sponsor-logo"/>
+                    </a>
                     <br><br>
                 </div>
-                <div class="col-sm-2">
-                    <img src="logo/esa-logo.png" class="vertical-center img-sponsor-logo"/>
+                <div class="col-md-2">
+                    <a href="http://www.esa.int" target="_blank">
+                        <img src="logo/esa-logo.png" class="vertical-center img-sponsor-logo"/>
+                    </a>
                     <br><br>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3">
                 </div>
             </div>
                    
             <div class="row"  align="center">
-                <div class="col-sm-3">
+                <div class="col-md-3">
                 </div>
-                <div class="col-sm-2">
-                    <img src="logo/ssc-logo.png" class="vertical-center img-sponsor-logo"/>
+                <div class="col-md-2">
+                    <a href="http://www.sscspace.com/" target="_blank">
+                        <img src="logo/ssc-logo.png" class="vertical-center img-sponsor-logo"/>
+                    </a>
                     <br><br>
                 </div>
-                <div class="col-sm-2">
-                    <img src="logo/zarm-logo.png" class="vertical-center img-sponsor-logo"/>
+                <div class="col-md-2">
+                    <a href="https://www.zarm.uni-bremen.de" target="_blank">
+                        <img src="logo/zarm-logo.png" class="vertical-center img-sponsor-logo"/>
+                    </a>
                     <br><br>
                 </div>
-                <div class="col-sm-2">
-                    <img src="logo/eurolaunch-logo.png" class="vertical-center img-sponsor-logo"/>
+                <div class="col-md-2">
+                    <a href="http://www.eurolaunch.org/about-us" target="_blank">
+                        <img src="logo/eurolaunch-logo.png" class="vertical-center img-sponsor-logo"/>
+                    </a>
                     <br><br>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3">
                 </div>
             </div>
 
-            <div class="row"  align="center">
-                <div class="col-sm-3">
+            <div class="row" align="center">
+                <div class="col-md-3">
                 </div>
-                <div class="col-sm-2">
-                    
+                <div class="col-md-3">
+                    <a href="https://www.ltu.se/?l=en" target="_blank">
+                        <img src="logo/ltu-logo.png" class="vertical-center img-sponsor-logo"/>
+                    </a>
                     <br><br>
                 </div>
-                <div class="col-sm-2">
-                    
+                <div class="col-md-3">
+                    <a href="http://en.ilmatieteenlaitos.fi/" target="_blank">
+                        <img src="logo/fmi-logo2.gif" class="vertical-center img-sponsor-logo"/>
+                    </a>
                     <br><br>
                 </div>
-                <div class="col-sm-2">
-                    <br><br>
-                </div>
-                <div class="col-sm-3">
+                <div class="col-md-3">
                 </div>
             </div>
         </div>
